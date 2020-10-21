@@ -23,7 +23,9 @@ h1 {
 /*1. Centera boxen */
 section#part-blue {
   background-color:rgba(0, 162, 255,1);
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #part-blue #center-box {
@@ -36,6 +38,10 @@ section#part-blue {
 
 section#part-orange {
   background-color:rgba(250, 182, 71, 1);
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* 3. Stapla boxarna vertikalt */
