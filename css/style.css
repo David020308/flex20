@@ -47,7 +47,10 @@ section#part-orange {
 /* 3. Stapla boxarna vertikalt */
 section#part-pink {
   background-color: pink;
-  display:flex
+  display:flex;
+  align-items: space-evenly;
+  flex-direction: column;
+  
 }
 
 section#part-pink .column-box {
@@ -62,7 +65,7 @@ section#part-pink .column-box {
 section#part-green {
   background-color: rgba(150, 255, 118,1);
   display:flex;
-  
+  flex-wrap: wrap;
 }
 
 section#part-green article {
@@ -79,6 +82,7 @@ section#part-brown {
   display:flex;
   align-items:center;
   justify-content:center;  
+  flex-direction: row-reverse;
 }
 
 section#part-brown article {
@@ -121,7 +125,7 @@ section#part-grey div {
   overflow: hidden;
 }
 section#part-grey div#double-trouble {
-  
+  flex-basis: ;
 }
 
 img {
